@@ -39,8 +39,8 @@ void setup()
       int avg = sum/2;
       fill (0);
       textSize (30);
-      text ("Number of dots: " +sum, 250, 170);
-      text ("Average of dots: " +avg, 250, 320);
+      text ("Number of dots: " +sum, 250, 470);
+      text ("Average of dots: " +avg, 250, 170);
   }
   void mousePressed()
   {
