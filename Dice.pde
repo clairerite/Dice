@@ -36,7 +36,7 @@ void setup()
       Die nine = new Die (400, 400);
       nine.show();
       int sum = one.numDots + two.numDots + three.numDots + four.numDots + five.numDots + six.numDots + seven.numDots + eight.numDots + nine.numDots;
-      int avg = sum/2;
+      double avg = sum/2;
       fill (0);
       textSize (30);
       text ("Number of dots: " +sum, 250, 470);
